@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-nav {
+    background-color: rgb(199, 199, 199);
+    border-radius: 0px;
+    border: 2px solid black;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover,
+.navbar-header .icon-bar:hover {
+    border: 2px solid white;
+}
+
+.navbar-header button.navbar-toggle:focus,
+.navbar-header .icon-bar:focus {
+    border: 2px solid white;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-list li {
+    border-bottom: 1px solid black;
+}
+
+#nav-list a {
+    color: rgb(0, 0, 0);
+}
+
+#nav-list a:hover {
+    color: gray;
+}
+
+body>h1 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#chicken,
+#beef,
+#sushi {
+    position: relative;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+#chicken span,
+#beef span,
+#sushi span {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    padding: 30px 15px 15px 15px;
+    background-color: rgb(199, 199, 199);
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+
+#collapsable-nav {
+    background-color: white;
+    border: 2px solid black;
+}
+}
